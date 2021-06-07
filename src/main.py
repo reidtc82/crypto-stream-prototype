@@ -6,7 +6,7 @@ logging.basicConfig()
 logging.getLogger("cryptowatch").setLevel(logging.DEBUG)
 
 # Set your API Key
-cw.api_key = "8OPDUPOO1J7M0KNU2Q02"
+cw.api_key = ""
 
 cw.stream.subscriptions = ["markets:*:trades", "markets:*:ohlc"]
 # cw.stream.subscriptions = ["assets:60:book:snapshots"]
